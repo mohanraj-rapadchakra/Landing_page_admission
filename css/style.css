@@ -1,0 +1,747 @@
+/* Import Google font - Poppins */
+
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"); */
+
+
+
+/* .form_style{
+
+  min-height: 100vh;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  justify-content: center;
+
+  padding: 20px;
+
+  background: rgb(244 244 244);
+
+}
+
+.container2 {
+
+  position: relative;
+
+  max-width: 1000px;
+
+  width: 100%;
+
+  background: #fff;
+
+  padding: 25px;
+
+  border-radius: 8px;
+
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+
+}
+
+.container2 header {
+
+  font-size: 1.5rem;
+
+  color: #333;
+
+  font-weight: 500;
+
+  text-align: center;
+
+} */
+
+/* .container2 .form {
+
+  margin-top: 30px;
+
+} */
+
+/* .form .input-box {
+
+  width: 100%;
+
+  margin-top: 20px;
+
+}
+
+.input-box label {
+
+  color: #333;
+
+}
+
+.form :where(.input-box input, .select-box) {
+
+  position: relative;
+
+  height: 50px;
+
+  width: 100%;
+
+  outline: none;
+
+  font-size: 1rem;
+
+  color: #707070;
+
+  margin-top: 8px;
+
+  border: 1px solid #ddd;
+
+  border-radius: 6px;
+
+  padding: 0 15px;
+
+}
+
+.input-box input:focus {
+
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+
+}
+
+.form .column {
+
+  display: flex;
+
+  column-gap: 15px;
+
+}
+
+.form .gender-box {
+
+  margin-top: 20px;
+
+}
+
+.gender-box h3 {
+
+  color: #333;
+
+  font-size: 1rem;
+
+  font-weight: 400;
+
+  margin-bottom: 8px;
+
+}
+
+.form :where(.gender-option, .gender) {
+
+  display: flex;
+
+  align-items: center;
+
+  column-gap: 50px;
+
+  flex-wrap: wrap;
+
+}
+
+.form .gender {
+
+  column-gap: 5px;
+
+}
+
+.gender input {
+
+  accent-color: rgb(130, 106, 251);
+
+}
+
+.form :where(.gender input, .gender label) {
+
+  cursor: pointer;
+
+}
+
+.gender label {
+
+  color: #707070;
+
+}
+
+.address :where(input, .select-box) {
+
+  margin-top: 15px;
+
+} */
+
+/* .select-box select {
+
+  height: 100%;
+
+  width: 100%;
+
+  outline: none;
+
+  border: none;
+
+  color: #707070;
+
+  font-size: 1rem;
+
+}
+
+.form button {
+
+  height: 55px;
+
+  width: 100%;
+
+  color: #fff;
+
+  font-size: 1rem;
+
+  font-weight: 400;
+
+  margin-top: 30px;
+
+  border: none;
+
+  cursor: pointer;
+
+  transition: all 0.2s ease;
+
+  background: rgb(130, 106, 251);
+
+}
+
+.form button:hover {
+
+  background: rgb(88, 56, 250);
+
+} 
+
+@media screen and (max-width: 500px) {
+
+  .form .column {
+
+    flex-wrap: wrap;
+
+  }
+
+  .form :where(.gender-option, .gender) {
+
+    row-gap: 15px;
+
+  }
+
+} */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+ 
+
+.wrapper{
+
+  max-width: 500px;
+
+  width: 100%;
+
+  background: #fff;
+
+  margin: 50px auto;
+
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.125);
+
+  padding: 30px;
+
+}
+
+
+
+.wrapper .title{
+
+  font-size: 24px;
+
+  font-weight: 700;
+
+  margin-bottom: 25px;
+
+  color: #fec107;
+
+  text-transform: uppercase;
+
+  text-align: center;
+
+}
+
+
+
+.wrapper .form{
+
+  width: 100%;
+
+}
+
+
+
+.wrapper .form .inputfield{
+
+  margin-bottom: 15px;
+
+  display: flex;
+
+  align-items: center;
+
+}
+
+
+
+.wrapper .form .inputfield label{
+
+   width: 200px;
+
+   color: #757575;
+
+   margin-right: 10px;
+
+  font-size: 14px;
+
+}
+
+
+
+.wrapper .form .inputfield .input,
+
+.wrapper .form .inputfield .textarea{
+
+  width: 100%;
+
+  outline: none;
+
+  border: 1px solid #d5dbd9;
+
+  font-size: 15px;
+
+  padding: 8px 10px;
+
+  border-radius: 3px;
+
+  transition: all 0.3s ease;
+
+}
+
+
+
+.wrapper .form .inputfield .textarea{
+
+  width: 100%;
+
+  height: 125px;
+
+  resize: none;
+
+}
+
+
+
+.wrapper .form .inputfield .custom_select{
+
+  position: relative;
+
+  width: 100%;
+
+  height: 37px;
+
+}
+
+
+
+.wrapper .form .inputfield .custom_select:before{
+
+  content: "";
+
+  position: absolute;
+
+  top: 12px;
+
+  right: 10px;
+
+  border: 8px solid;
+
+  border-color: #d5dbd9 transparent transparent transparent;
+
+  pointer-events: none;
+
+}
+
+
+
+.wrapper .form .inputfield .custom_select select{
+
+  -webkit-appearance: none;
+
+  -moz-appearance:   none;
+
+  appearance:        none;
+
+  outline: none;
+
+  width: 100%;
+
+  height: 100%;
+
+  border: 0px;
+
+  padding: 8px 10px;
+
+  font-size: 15px;
+
+  border: 1px solid #d5dbd9;
+
+  border-radius: 3px;
+
+}
+
+
+
+
+
+.wrapper .form .inputfield .input:focus,
+
+.wrapper .form .inputfield .textarea:focus,
+
+.wrapper .form .inputfield .custom_select select:focus{
+
+  border: 1px solid #fec107;
+
+}
+
+
+
+.wrapper .form .inputfield p{
+
+   font-size: 14px;
+
+   color: #757575;
+
+}
+
+.wrapper .form .inputfield .check{
+
+  width: 15px;
+
+  height: 15px;
+
+  position: relative;
+
+  display: block;
+
+  cursor: pointer;
+
+}
+
+.wrapper .form .inputfield .check input[type="checkbox"]{
+
+  position: absolute;
+
+  top: 0;
+
+  left: 0;
+
+  opacity: 0;
+
+}
+
+.wrapper .form .inputfield .check .checkmark{
+
+  width: 15px;
+
+  height: 15px;
+
+  border: 1px solid #fec107;
+
+  display: block;
+
+  position: relative;
+
+}
+
+.wrapper .form .inputfield .check .checkmark:before{
+
+  content: "";
+
+  position: absolute;
+
+  top: 1px;
+
+  left: 2px;
+
+  width: 5px;
+
+  height: 2px;
+
+  border: 2px solid;
+
+  border-color: transparent transparent #fff #fff;
+
+  transform: rotate(-45deg);
+
+  display: none;
+
+}
+
+.wrapper .form .inputfield .check input[type="checkbox"]:checked ~ .checkmark{
+
+  background: #fec107;
+
+}
+
+
+
+.wrapper .form .inputfield .check input[type="checkbox"]:checked ~ .checkmark:before{
+
+  display: block;
+
+}
+
+
+
+.wrapper .form .inputfield .btn{
+
+  width: 100%;
+
+   padding: 8px 10px;
+
+  font-size: 15px; 
+
+  border: 0px;
+
+  background:  #82b541;
+
+  color: #fff;
+
+  cursor: pointer;
+
+  border-radius: 3px;
+
+  outline: none;
+
+}
+
+
+
+.wrapper .form .inputfield .btn:hover{
+
+  background: #82b541;
+
+}
+
+
+
+.wrapper .form .inputfield:last-child{
+
+  margin-bottom: 0;
+
+}
+
+
+
+@media (max-width:420px) {
+
+  .wrapper .form .inputfield{
+
+    flex-direction: column;
+
+    align-items: flex-start;
+
+  }
+
+  .wrapper .form .inputfield label{
+
+    margin-bottom: 5px;
+
+  }
+
+  .wrapper .form .inputfield.terms{
+
+    flex-direction: row;
+
+  }
+
+}
+
+.firstrow{
+
+ background :url('../images/fwdlandingpage/Landing-page---2-BG.jpg') ;
+
+ background-position: center;
+
+ background-repeat: no-repeat;
+
+ background-size: cover;
+
+}
+
+.secondrow{
+
+  background :url('../images/fwdlandingpage/Landing-page---1-BG.jpg') ;
+
+  background-position: center;
+
+  background-repeat: no-repeat;
+
+  background-size: cover;
+
+ }
+
+ .school-background1{
+
+  background :linear-gradient(rgba(0,0,0, 0.6), rgba(0,0,0, 0.6)),url('../images/New folder/matric.jpg') ;
+
+  background-position: center;
+
+  background-repeat: no-repeat;
+
+  background-size: cover;
+
+ }
+
+ .school-background2{
+
+  background :linear-gradient(rgba(0,0,0, 0.6), rgba(0,0,0, 0.6)),url('../images/New folder/IMG20211229151811.jpg') ;
+
+  background-position: center;
+
+  background-repeat: no-repeat;
+
+  background-size: cover;
+
+ }
+
+ .school-background3{
+
+  background :linear-gradient(rgba(0,0,0, 0.6), rgba(0,0,0, 0.6)),url('../images/New folder/maduravayal3.jpg') ;
+
+  background-position: center;
+
+  background-repeat: no-repeat;
+
+  background-size: cover;
+
+ }
+
+ .school-background4{
+
+  background :linear-gradient(rgba(0,0,0, 0.6), rgba(0,0,0, 0.6)),url('../images/New folder/cbse_mathur_gate.jpg') ;
+
+  background-position: center;
+
+  background-repeat: no-repeat;
+
+  background-size: cover;
+
+ }
+
+ .school-background5{
+
+  background :linear-gradient(rgba(0,0,0, 0.6), rgba(0,0,0, 0.6)),url('../images/New folder/cbse_perambur.jpg') ;
+
+  background-position: center;
+
+  background-repeat: no-repeat;
+
+  background-size: cover;
+
+ }
+
+ .school-background6{
+
+  background :linear-gradient(rgba(0,0,0, 0.6), rgba(0,0,0, 0.6)),url('../images/surapet/WhatsApp\ Image\ 2022-12-28\ at\ 10.59.49\ AM\ \(2\).jpeg') ;
+
+  background-position: center;
+
+  background-repeat: no-repeat;
+
+  background-size: cover;
+
+ }
+
+@media (min-width:1025px) { 
+
+  .wrapper{ 
+
+    margin: 60px 100px 0px 100px; 
+
+  } 
+
+}
+
+@media screen and (min-height: 1143px) and (max-height: 1368px) {
+
+  .tab_response{
+
+   position: sticky;
+
+  } 
+
+  .tab_response1{
+
+    position: sticky; 
+
+    margin-bottom: 10%;
+
+   }  
+
+} 
+
+.indicator{
+
+  width: 100%;
+
+  max-width: 720px;
+
+  height: 6px;
+
+  background: #e41b17;
+
+  position: absolute;
+
+  bottom: 0;
+
+  
+
+  animation: indicating 5s ease infinite; 
+
+  
+
+}
+
+@keyframes sliding{
+
+  0%{left: 0%; }
+
+  20%{left: -100%;}
+
+  40%{left: -200%;}
+
+  60%{left: -300%;}
+
+  80%{left: -400%;}
+
+  100%{left: 0%;}
+
+}        
+
+
+
+@keyframes indicating{
+
+  from{
+
+      left: -100%;
+
+  }
+
+  to{
+
+      left: 0;
+
+  }
+
+}  
